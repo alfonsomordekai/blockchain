@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="ajax.js"></script>
+
+<div class="delivery_calc" >
+  <form method="post" id="ajax_form" action="" >
+  
+    <select class="block" name="name">
+      <option selected="selected disabled hidden">arabica</option>
+      <option selected="selected disabled hidden">robusto</option>
+      <option selected="selected disabled hidden">mixto</option>
+    </select>
+
+      <select class="block" name="phonenumber">
+        <option selected="selected disabled hidden">Santos</option>
+        <option selected="selected disabled hidden">terezu</option>
+        <option selected="selected disabled hidden">medelin</option>
+        <option selected="selected disabled hidden">blue moutain</option>
+      </select>
+
+      <label class="block" for="weight">weight of one pack</label>
+      <input class="block" type="number" name ="weight">
+     
+      <label class="block" for="amount">number of packages</label>
+      <input class="block" type="number" name="amount">
+          
+      <label class="block" for="deldate">departure date</label>
+      <input class="block" type="date" name="depdate">
+            
+      <input type="button" id="btn" value="send" />
+</form>
+</div>
+
+<div id="result_form">........</div>
+<button class="btn" id="btnqw" type="button" >check delivery
+
+</button>
+<div id='qwe'></div>
+<script src="js/app.js"></script>
+
+</body>
+</html>

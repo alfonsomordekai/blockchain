@@ -1,0 +1,38 @@
+.delivery_calc {
+    width: 400px;
+}
+.block {
+    display: block;
+    width: 100%;
+}
+.labels {
+    display:block;
+}
+.labels:hover {
+    background:#eee;
+    cursor:pointer;
+}
+.delivery-item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.delivery-item-city {
+    font-weight: 600;
+}
+
+.delivery-item-price {
+    font-size: 14px;
+}
+
+.delivery-item-days {
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.text {
+    font-size: 14px;
+}
